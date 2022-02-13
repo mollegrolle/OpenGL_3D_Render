@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader Files\General">
+      <UniqueIdentifier>{01002930-4da7-417b-a5ec-107b4bf8a222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Light">
+      <UniqueIdentifier>{c9bd7aeb-9646-4045-b8e9-7e0f10543aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Deferred">
+      <UniqueIdentifier>{ef384c6c-99e7-4a43-b9e3-abb5bf831e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Shadow">
+      <UniqueIdentifier>{7547dfda-68be-459b-a506-e998ba52efa8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredShading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\GPControl.glsl">
+      <Filter>Shader Files\General</Filter>
+    </None>
+    <None Include="Shader\GPEvaluation.glsl">
+      <Filter>Shader Files\General</Filter>
+    </None>
+    <None Include="Shader\GPFragment.glsl">
+      <Filter>Shader Files\General</Filter>
+    </None>
+    <None Include="Shader\GPGeometry.glsl">
+      <Filter>Shader Files\General</Filter>
+    </None>
+    <None Include="Shader\GPVertex.glsl">
+      <Filter>Shader Files\General</Filter>
+    </None>
+    <None Include="Shader\DeferredFragment.glsl">
+      <Filter>Shader Files\Deferred</Filter>
+    </None>
+    <None Include="Shader\DeferredVertex.glsl">
+      <Filter>Shader Files\Deferred</Filter>
+    </None>
+    <None Include="Shader\LightFragment.glsl">
+      <Filter>Shader Files\Light</Filter>
+    </None>
+    <None Include="Shader\LightVertex.glsl">
+      <Filter>Shader Files\Light</Filter>
+    </None>
+    <None Include="Shader\\DepthFragment.glsl">
+      <Filter>Shader Files\Shadow</Filter>
+    </None>
+    <None Include="Shader\DepthVertex.glsl">
+      <Filter>Shader Files\Shadow</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredShading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
